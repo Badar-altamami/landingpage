@@ -1,0 +1,123 @@
+.home_wrapper {
+    position: relative;
+}
+
+.home__title {
+    color: #1F0F38;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 75px;
+}
+
+.home__sub__title {
+    font-family: 'Inter', sans-serif;
+    color: #1F0F38;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: 0.01rem;
+}
+
+.home__sub__title span {
+    color: #6733B5;
+}
+
+.dumbbel {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    top: 0%;
+    left: 15%;
+}
+
+.sportWatch {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    right: 11%;
+    bottom: 0%;
+}
+
+.home__des {
+    width: 55%;
+    margin: auto;
+    color: #89829A;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+}
+
+.abtn__group {
+    display: flex;
+    justify-content: center;
+}
+
+.abtn1 {
+    color: #fff;
+    font-weight: 400;
+    width: 14rem;
+    padding: 10px 0;
+    margin: 10px 10px 0 0;
+    background: #6733B5;
+    border: 1px solid #6733B5;
+    border-radius: 50px;
+}
+
+.abtn2 {
+    color: #1F0F38;
+    font-weight: 500;
+    width: 14rem;
+    padding: 10px 0;
+    margin: 10px 0 0 10px;
+    background: transparent;
+    border: 1px solid #1F0F38;
+    border-radius: 50px;
+}
+
+.scroll {
+    font-size: 14px;
+    color: #1F0F38;
+}
+
+@media only screen and (max-width: 768px) {
+    .home__title {
+        font-size: 25px;
+    }
+
+    .dumbbel {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        top: -1%;
+        left: 0%;
+        z-index: -999;
+    }
+
+    .sportWatch {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        right: 0%;
+        bottom: 44%;
+        z-index: -999;
+    }
+
+    .home__sub__title {
+        font-size: 14px;
+    }
+
+    .home__des {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .abtn__group {
+        flex-direction: column;
+        width: 100% !important;
+        align-items: center;
+    }
+
+    .abtn1,
+    .abtn2 {
+        margin: 10px 0;
+        font-size: 14px;
+    }
+}
